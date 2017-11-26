@@ -1,0 +1,87 @@
+/*CSS Search*/
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	
+}
+
+body{
+	background-color: #f1f1f1;
+}
+#container {
+	width: 41%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#searchArea1{
+	width: 45%;
+}
+
+#searchArea1 p{
+	font-family: 'Gloria Hallelujah', cursive;
+	font-size: 34px;
+}
+
+#searchArea2{
+	float: right;
+}
+
+#searchArea2 input  {
+	height: 30px;
+	margin-top: 22px;
+	
+}
+
+#searchArea3 p {
+	font-size: 12px;
+	margin-top: 2px;
+	text-align: left;
+}
+
+#searchArea2 button  {
+	height: 30px;
+	width: 70px;
+}
+
+#resultArea {
+	width: 900px;
+	margin-top: 20px;
+	margin-left:auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#resultArea li{
+	margin: 3px;
+	background-color: white;
+	list-style: none;
+	float: left;
+	display: inline-block;
+	height: 300px;
+	width: 250px;
+}
+
+#image img{
+  max-height: 195px;
+  max-width: 101%;
+  object-fit: cover;
+  margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
